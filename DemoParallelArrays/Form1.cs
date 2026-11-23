@@ -40,7 +40,7 @@ namespace DemoParallelArrays
             }
             if (!found)
             {
-                MessageBox.Show("No student matching the name or id of " + txtStudent.Text,
+                MessageBox.Show("No student matching the id or name of " + txtStudent.Text,
                     "Data Not Found");
             }
         }

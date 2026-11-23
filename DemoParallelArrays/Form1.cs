@@ -30,7 +30,7 @@ namespace DemoParallelArrays
             int.TryParse(txtStudent.Text, out int id);
             for (int i = 0; i < students.Length; i++)
             {
-                if (students[i].ToLower() == txtStudent.Text.ToLower() ||
+                if (students[i].ToUpper() == txtStudent.Text.ToUpper() ||
                     ids[i] == id)
                 {
                     lblGrade.Text = grades[i].ToString();
